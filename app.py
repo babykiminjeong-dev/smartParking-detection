@@ -678,8 +678,8 @@ with tab_detection:
 
     if img_select_option == "Sample A (assets/samples/image.png)":
         test_img_path = SAMPLES_DIR / "image.png"
-    elif img_select_option == "Sample B (assets/samples/dataset.png)":
-        test_img_path = SAMPLES_DIR / "dataset.png"
+    elif img_select_option == "Sample B (assets/samples/dataset.jpg)":
+        test_img_path = SAMPLES_DIR / "dataset.jpg"
     elif img_select_option == "Upload Video (.mp4, .mov, .avi, .mkv)":
         uploaded_video = st.file_uploader("Choose a video:", type=["mp4", "mov", "avi", "mkv"])
     else:
