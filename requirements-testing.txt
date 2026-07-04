@@ -1,0 +1,8 @@
+# Local detection testing tool ONLY. Independent from backend/requirements.txt.
+# Do NOT install these into the production backend / edge device environment.
+streamlit>=1.34.0
+ultralytics>=8.2.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+pillow>=10.0.0
+pandas>=2.0.0
