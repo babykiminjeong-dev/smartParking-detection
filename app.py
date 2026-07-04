@@ -663,7 +663,7 @@ with tab_detection:
     img_select_option = st.radio(
         "Use a bundled sample or upload your own file:",
         ["Sample A (assets/samples/image.png)",
-         "Sample B (assets/samples/dataset.png)",
+         "Sample B (assets/samples/dataset.jpg)",
          "Upload Image (.png, .jpg, .jpeg)",
          "Upload Video (.mp4, .mov, .avi, .mkv)"],
         horizontal=True
